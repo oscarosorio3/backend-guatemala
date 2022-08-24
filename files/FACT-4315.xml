@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dte:GTDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1" xsi:schemaLocation="http://www.sat.gob.gt/dte/fel/0.2.0">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2022-08-12T00:00:00-06:00" Tipo="FACT"></dte:DatosGenerales>
+        <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1"  CorreoEmisor="daitomo@daitomo.com.gt" NITEmisor="93955189" NombreComercial="DAITOMO S.A." NombreEmisor="DAITOMO S.A.">
+          <dte:DireccionEmisor>
+            <dte:Direccion>1 AVENIDA 42-02 ZONA 24 CASA 24 LAS CASCADAS DE VISTA HERMOSA IV</dte:Direccion>
+            <dte:CodigoPostal>01001</dte:CodigoPostal>
+            <dte:Municipio>GUATEMALA</dte:Municipio>
+            <dte:Departamento>AMATITLAN</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor CorreoReceptor="" IDReceptor="CF" NombreReceptor="MOVIMIENTOS TERRESTRES, SOCIEDAD ANONIMA(0GT372)">
+          <dte:DireccionReceptor>
+            <dte:Direccion>10 AV. B 1-14 Z. 4 COL. MONTEREAL MIXCO -FISCAL-  AV. LA BRIGADA 14-27 Z. 7 MIXCO COL. SAN IGNACIO  FRENTE A GASOLINERA SAN IGNACIO -PEDIDOS-</dte:Direccion>
+            <dte:CodigoPostal>01001</dte:CodigoPostal>
+            <dte:Municipio>GUATEMALA</dte:Municipio>
+            <dte:Departamento>MIXCO</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Frases>
+          <dte:Frase CodigoEscenario="1" TipoFrase="1"></dte:Frase>
+        </dte:Frases>
+        <dte:Items>
+          <dte:Item BienOServicio="B" NumeroLinea="1">
+            <dte:Cantidad>2</dte:Cantidad>
+            <dte:UnidadMedida>UND</dte:UnidadMedida>
+            <dte:Descripcion>ROD. RDA.  INTERNATIONAL, KENWORTH, FREI</dte:Descripcion>
+            <dte:PrecioUnitario>326.00</dte:PrecioUnitario>
+            <dte:Precio>652.00</dte:Precio>
+            <dte:Descuento>0.00</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>582.14</dte:MontoGravable>
+                <dte:MontoImpuesto>69.86</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>652.00</dte:Total>
+          </dte:Item>
+        </dte:Items>
+        <dte:Totales>
+          <dte:TotalImpuestos>
+            <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="69.86"></dte:TotalImpuesto>
+          </dte:TotalImpuestos>
+          <dte:GranTotal>652.00</dte:GranTotal>
+        </dte:Totales>
+      </dte:DatosEmision>
+    </dte:DTE>
+    <dte:Adenda>
+      <dte:Codigo_cliente>0GT372</dte:Codigo_cliente>
+      <dte:Observaciones></dte:Observaciones>
+    </dte:Adenda>
+  </dte:SAT>
+</dte:GTDocumento>
